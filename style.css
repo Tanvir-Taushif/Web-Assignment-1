@@ -21,12 +21,17 @@ p{
 
 .topDiv{
     margin-top: 70px;
-    width: 50%;
     align-content: space-between;
 }
 
 #topImage{
     margin-left: 30px;
+    padding-left: 70px;
+    width: 40%;
+}
+
+#topBlog{
+    width: 60%;
 }
 
 .button{
@@ -45,17 +50,15 @@ p{
     margin-right: 150px;
 }
 
-#Title2{
+.Title{
     text-align: center;
     font-size: 40px;
     font-weight: 900;
-}
-
-#Title2{
     color: rgb(48, 24, 73);
 }
 
-#Title2 span{
+
+.Title span{
     color: rgb(22, 132, 175);
 }
 
@@ -141,18 +144,34 @@ footer p{
 
 #section4 div{
     margin: 30px;
-    width: 50%;
 }
 
 #section4{
     background-image: url("images/shapes/shape-1.png");
     background-repeat: no-repeat;
     background-size: 175px;
-    background-position-y: 99%;
-    background-position: right;
+    background-position-y: 100%;
+    background-position-x: right;
 }
 
+#section4-text{
+    width: 60%;
+}
 #section4-image{
-    padding-left: 300px;
-    padding-bottom: 295px;
+    padding-left: 100px;
+    padding-bottom: 40px;
+    width: 40%;
+}
+
+.appTitle{
+    font-size: 50px;
+}
+
+#section5 div{
+    width: 50%;
+    margin: 20px;
+}
+
+#section5-text span{
+    color:rgb(22, 132, 175); ;
 }
