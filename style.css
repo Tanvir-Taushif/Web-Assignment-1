@@ -39,7 +39,7 @@ p{
 }
 
 .sec{
-    margin-bottom: 60px;
+    margin-bottom: 40px;
     display: flex;
     margin-left:150px;
     margin-right: 150px;
@@ -132,4 +132,27 @@ footer p{
 #section3 h1{
     font-size: 40px;
     font-weight: 900;
+}
+
+#section4 h1{
+    font-size: 40px;
+    font-weight: 900;
+}
+
+#section4 div{
+    margin: 30px;
+    width: 50%;
+}
+
+#section4{
+    background-image: url("images/shapes/shape-1.png");
+    background-repeat: no-repeat;
+    background-size: 175px;
+    background-position-y: 99%;
+    background-position: right;
+}
+
+#section4-image{
+    padding-left: 300px;
+    padding-bottom: 295px;
 }
