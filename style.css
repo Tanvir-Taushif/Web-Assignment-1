@@ -175,3 +175,11 @@ footer p{
 #section5-text span{
     color:rgb(22, 132, 175); ;
 }
+
+#section5{
+    background-image: url("images/shapes/bottom.png");
+    background-position-x:right ;
+    background-position-y: 100%;
+    background-repeat: no-repeat;
+    background-size: 500px;
+}
