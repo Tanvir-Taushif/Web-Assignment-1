@@ -10,7 +10,7 @@ body{
 #topSection h1{
     font-size: 45px;
     font-weight: 900;
-    border-left:4px solid rgb(22, 132, 175);
+    border-left:4px solid rebeccapurple;
     padding: 8px;
 }
 
@@ -33,7 +33,7 @@ p{
     text-decoration: none;
     color: white;
     font-weight: 550;
-    background-color: rgb(22, 132, 175);
+    background-color: rebeccapurple;
     padding: 10px 13px;
     border-radius: 5px;
 }
@@ -49,6 +49,10 @@ p{
     text-align: center;
     font-size: 40px;
     font-weight: 900;
+}
+
+#Title2{
+    color: rgb(48, 24, 73);
 }
 
 #Title2 span{
@@ -87,4 +91,45 @@ p{
 
 #goals{
     background-color: rgb(255, 230, 206);
+}
+
+footer{
+    text-align: center;
+    padding: 15px;
+    color: white;
+    background-color: black;
+}
+
+footer span{
+    color: rebeccapurple;
+}
+
+footer h1{
+    font-weight: 900;
+    font-family: 'Moon Dance', cursive;
+    font-size: 40px;
+}
+
+footer p{
+    font-weight: 100;
+}
+
+#section3{
+    background-image: url("images/shapes/shape-1.png");
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position-y: 45%;
+}
+
+#section3-image img{
+    margin-left: 50px;
+}
+
+#section3 div{
+    margin: 30px;
+}
+
+#section3 h1{
+    font-size: 40px;
+    font-weight: 900;
 }
